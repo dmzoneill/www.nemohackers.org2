@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+
+<body>
+
+<form name="f">
+<textarea name="area51" rows="3" cols="30">
+</textarea>
+</form>
+
+<script language="javascript">
+function write(){
+document.f.area51.value="dd";
+}
+window.onLoad=write();
+</script>
+
+basically im trying to open files within the textarea
+
+like opeing files in < iframes >
+
+
+
+
+<!---
+try <ilayer src="somepage" height=0 width=0></ilayer>
+Kris says:
+oops, name it alsop
+Kris says:
+if (document.all)document.write("<iframe shit>");
+Kris says:
+if (document.layers)document.write("ilayer shit");
+Kris says:
+and everything you want to show in that textarea make come up in a textarea in the invis frame then call for it like 
+var x = parent.framename.formname.formfieldname.value;
+Kris says:
+document.f.area51.value = x;
+Kris says:
+or in the page that loads in the invis frame it could have:
+<body onload="parent.framename.f.area51.value=document.form.textarea.value">
+
+so you just link like:
+<a href="archive_info.html" target="invis_frame">sdf</a>
+//--->
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<script language="javascript">
+
+if (document.all)
+document.write("<iframe src='blah.html' name='area51' width='300' height='200'></iframe>");
+
+if (document.layers)
+document.write("<ilayer src='blah.html' name='area51' width='300' height='200'></ilayer> get a proper borwser");
+
+</script>
+
+
+
+
+
+<layer name="area51" left="10" top="60" z-index="4" width="100" height="100" visibility="show">
+<br>
+<br>
+<br>
+<br>
+<br>
+</layer>
+
+
+<a href="66.20.150.240.txt" target="area51">hhhhhhhh</a>
+
+var x = parent.area51.area51.value;
+document.area51a.area51.value = x;
+
+
+
+
+
+</body>
+</html>
