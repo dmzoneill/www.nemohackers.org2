@@ -2,7 +2,7 @@
 <?php // jscpd:ignore-start ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 
-<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/header.php");?>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/header.php");?>
 
     <TABLE border="0" width="100%">
       <TR valign="top">
@@ -20,7 +20,7 @@
                 <CENTER>
                   <FONT face="Verdana, Helvetica" color="white" size="1">
 				  
-				  <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/home.txt");?></FONT>
+				  <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/home.txt");?></FONT>
                 </CENTER>
               </TD>
             </TR>
@@ -37,7 +37,7 @@
             </TR>
             <TR valign="top">
               <TD width="70%">
-                <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require('login.php'); ?>
+                <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('login.php'); ?>
               </TD>
             </TR>
           </TABLE>
@@ -55,7 +55,7 @@
               <TD width="70%">
                 <CENTER>
                   <FONT face="Verdana, Helvetica" color="white" size="1">
-				  <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require('includes/search.txt'); ?></FONT>
+				  <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('includes/search.txt'); ?></FONT>
                 </CENTER>
               </TD>
             </TR>
@@ -122,7 +122,7 @@ Nemohackers and may not be licensed here under.
         </TD>
       </TR>
     </TABLE>
-    <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/footer.php");?><BR>
+    <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/footer.php");?><BR>
 
 
 <?php // jscpd:ignore-end ?>

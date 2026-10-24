@@ -4,7 +4,7 @@
 
 <?php
 
-/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/header.php");
+/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/header.php");
 
 ?>
 
@@ -38,7 +38,7 @@
                   <FONT face="Verdana, Helvetica" color="white" size="1">
                   <?php
 
-                    /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/modules.txt");
+                    /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/modules.txt");
 
                     ?></FONT>
 
@@ -204,7 +204,7 @@
           </TABLE>
 
 
-<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/footer.php");?><BR>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/footer.php");?><BR>
 
 
 

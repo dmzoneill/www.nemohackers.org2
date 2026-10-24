@@ -8,7 +8,7 @@
 
 
 
-/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/header.php");
+/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/header.php");
 
 
 
@@ -71,7 +71,7 @@
 
 
 
-                    /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/home.txt");
+                    /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/home.txt");
 
 
 
@@ -139,7 +139,7 @@
 
 
 
-              <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require('login.php'); ?>
+              <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('login.php'); ?>
               </TD>
 
 
@@ -202,7 +202,7 @@
 
 
 
-                  <FONT face="Verdana, Helvetica" color="white" size="1"><?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require('includes/search.txt'); ?></FONT>
+                  <FONT face="Verdana, Helvetica" color="white" size="1"><?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('includes/search.txt'); ?></FONT>
 
 
 
@@ -300,7 +300,7 @@
 
 
 
-<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/footer.php");?><BR>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/footer.php");?><BR>
 
 
 

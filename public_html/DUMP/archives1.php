@@ -4,7 +4,7 @@
 
 <?php
 
-/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/header.php");
+/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/header.php");
 
 ?>
 
@@ -167,7 +167,7 @@
             <TR valign="top">
 
               
-          <TD background="back.JPG" width="100%"><?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ include('dir.php');?></TD>
+          <TD background="back.JPG" width="100%"><?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ include('dir.php');?></TD>
             </TR>
           </TABLE>
         </TD>
@@ -176,7 +176,7 @@
 
 
 
-<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("includes/footer.php");?><BR>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/footer.php");?><BR>
 
 
 

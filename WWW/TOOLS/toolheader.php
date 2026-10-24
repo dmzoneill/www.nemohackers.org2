@@ -4,7 +4,7 @@
 
 <?php
 
-/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("../site/includes/theader.php");
+/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("../site/includes/theader.php");
 
 ?>
 
@@ -58,7 +58,7 @@
 
 
 
-                    /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require("../site/includes/home.txt");
+                    /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("../site/includes/home.txt");
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-              <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require('../site/login.php'); ?>
+              <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('../site/login.php'); ?>
               </TD>
 
 
@@ -189,7 +189,7 @@
 
 
 
-                  <FONT face="Verdana, Helvetica" color="white" size="1"><?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ require('../site/tools.php'); ?></FONT>
+                  <FONT face="Verdana, Helvetica" color="white" size="1"><?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('../site/tools.php'); ?></FONT>
 
 
 
